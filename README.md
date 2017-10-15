@@ -7,7 +7,6 @@ Please create your own folder called "your name" in which you will upload all of
 https://i.stack.imgur.com/9Ifmj.gif
 
 Exercises will be divided in numbered folders (found in the "Projects" tab), starting from 001 (basics).
-All exercises will be numbered from 01 for easier understanding.
 
             E.G.: 001 - 01 - NameOfExercise
             
@@ -20,16 +19,14 @@ All exercises will be numbered from 01 for easier understanding.
 
 
 
-Everyone can upload as many solutions as desired in the main repository, as long as they are labeled according to their version:
+Everyone can upload as many solutions as desired in the main repository, as long as they are in the following format:
 
-      E.G.: 001_01_GM v1.0;
-            001_01_GM v1.1;
+      E.G.: 001_01 v1.0;
+            001_01_v1.1;
       
             and so forth.
             
-This naming convention will make it easier for all of out codes to stick together when they will increase in number.
-
-
+## Ask your questions in the 'Issues' label ##
 
 ? To upload, go in the main "<> Code" page and press on "Create new file". Paste your code in, and name it according to the above convention. 
      
