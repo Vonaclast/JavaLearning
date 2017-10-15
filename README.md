@@ -14,8 +14,10 @@ Everyone can upload as many solutions as desired in the main repository, as long
             and so forth.
             
 This naming convention will make it easier for all of out codes to stick together when they will increase in number.
-     
-     
-! Don't modify others' code !
 
-! Ask for help without hesitations :) !
+? To upload, go in the main "<> Code" page and press on "Create new file". Paste your come and name it according to the above convention. 
+     
+     
+! Don't modify others' code.
+
+! Ask for help without hesitations!
