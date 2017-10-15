@@ -1,4 +1,4 @@
-class 001_01_mazunki{
+class mazunki001_01 {
 
 	public static void main(String[] args){
 
