@@ -1,6 +1,6 @@
 # Read this document before uploading any file! #
 
-Before uploading, everyone must have its own folder.
+When uploading codes, everyone must have his own folder.
 
 To create your folder, when you upload your file, specify at the top you want to create in a folder called (your name).
 
