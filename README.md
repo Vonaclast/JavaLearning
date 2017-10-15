@@ -19,10 +19,10 @@ Exercises will be divided in numbered folders (found in the "Projects" tab), sta
 
 
 
-Everyone can upload as many solutions as desired in the main repository, as long as they are in the following format:
+Everyone can upload as many solutions as desired in the main repository. Add future versions of your code as a comment in your original submission.
 
-      E.G.: 001_01 v1.0;
-            001_01_v1.1;
+      E.G.: 001_01;
+            001_02;
       
             and so forth.
             
