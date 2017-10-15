@@ -26,11 +26,9 @@ Everyone can upload as many solutions as desired in the main repository, as long
       
             and so forth.
             
-## Ask your questions in the 'Issues' label ##
 
 ? To upload, go in the main "<> Code" page and press on "Create new file". Paste your code in, and name it according to the above convention. 
      
      
-   ! Don't modify others' code !
-
-   ! Ask for help as much as you want !
+   
+   ## Ask your questions in the 'Issues' label ##
