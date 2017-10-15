@@ -1,0 +1,30 @@
+
+/**
+ * Name: PhannyGG
+ *
+ * Project: PhannyGG02
+ * 
+ * Description: Print out calculations for 100 and 20
+ * for addition, subtraction, multiplication, and division.
+ * 
+ */
+public class PhannyGG02
+{
+    public static void main (String [] args)
+    {
+        // Variable declared for 100
+        int a = 100;
+        // Variable decalred for 20
+        int b = 20;
+        int addResult = a + b; 
+        int subResult = a - b; 
+        int mulResult = a * b; 
+        int divResult = a / b; 
+        
+        System.out.println("100 + 20 = " + addResult);
+        System.out.println("100 - 20 = " + subResult);
+        System.out.println("100 * 20 = " + mulResult);
+        System.out.println("100 / 20 = " + divResult);
+        
+    }
+}
