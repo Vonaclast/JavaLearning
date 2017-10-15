@@ -25,7 +25,7 @@ This naming convention will make it easier for all of out codes to stick togethe
 
 
 
-? To upload, go in the main "<> Code" page and press on "Create new file". Paste your come and name it according to the above convention. 
+? To upload, go in the main "<> Code" page and press on "Create new file". Paste your code in, and name it according to the above convention. 
      
      
    ! Don't modify others' code !
