@@ -1,4 +1,10 @@
-Different specs will be uploaded in separate folders, and more will keep on being uploaded.
+# Read this document before uploading any file! #
+
+Before uploading, everyone must have its own folder.
+
+To create your folder, when you upload your file, specify at the top you want to create in a folder called (your name).
+
+https://i.stack.imgur.com/9Ifmj.gif
 
 Exercises will be divided in numbered folders (found in the "Projects" tab), starting from 001 (basics).
 All exercises will be numbered from 01 for easier understanding.
