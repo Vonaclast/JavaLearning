@@ -5,8 +5,11 @@ Exercises will be divided in numbered folders (found in the "Projects" tab), sta
             001 - NameOfExercise
             
 **To Do** = nobody has finished the exercise yet.
+
 **In Progress** = some submitted their solution, not everyone.
+
 **Done** = everyone submitted his solution.
+
 
 
 
