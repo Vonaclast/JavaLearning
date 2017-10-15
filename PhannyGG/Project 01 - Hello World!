@@ -11,12 +11,16 @@
 *
 *\
 
-import java.util.*;
 
 public class PhannyGG-01 
 {
       public static void main (String [] args)
       {
-          System.out.println("Hello, world!");
+          String a = Hello,;
+          
+          String b = World!;
+          
+          System.out.println(a + " " + b);
+         
       }
 }     
