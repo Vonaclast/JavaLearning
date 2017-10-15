@@ -2,7 +2,7 @@
 
 When uploading codes, everyone must have his own folder.
 
-Please create your own folder called (your name) in which you will upload all of your files.
+Please create your own folder called "your name" in which you will upload all of your files.
 
 https://i.stack.imgur.com/9Ifmj.gif
 
