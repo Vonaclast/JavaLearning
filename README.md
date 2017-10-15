@@ -16,8 +16,8 @@ All exercises will be numbered from 01 for easier understanding.
 
 Everyone can upload as many solutions as desired in the main repository, as long as they are labeled according to their version:
 
-      E.G.: 001_01_VariablesExercise_GM v1.0;
-            001_01_VariablesExercise_GM v1.1;
+      E.G.: 001_01_GM v1.0;
+            001_01_GM v1.1;
       
             and so forth.
             
