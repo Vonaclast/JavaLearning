@@ -1,0 +1,25 @@
+public class Github {
+
+//declaration and initialisation of an array of strings
+
+    static String[] weekDays = new String[7];
+
+    public static void main (String[] args){
+
+//assign elements to the array
+
+        weekDays[0] = "Monday";
+        weekDays[1] = "Tuesday";
+        weekDays[2] = "Wednesday";
+        weekDays[3] = "Thursday";
+        weekDays[4] = "Friday";
+        weekDays[5] = "Saturday";
+        weekDays[6] = "Sunday";
+        
+//print elements directly from the array
+
+        System.out.println("Today is " + weekDays[4] + ".");
+        System.out.println("Tomorrow is " + weekDays[5] + ".");
+
+    }
+}
