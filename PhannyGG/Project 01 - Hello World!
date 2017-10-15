@@ -17,6 +17,6 @@ public class PhannyGG-01
 {
       public static void main (String [] args)
       {
-          String.out.println("Hello world!");
+          System.out.println("Hello, world!");
       }
 }     
