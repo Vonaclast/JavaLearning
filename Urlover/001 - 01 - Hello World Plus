@@ -4,7 +4,7 @@ Public class gitHub {
   
   //declare variables
   String a = "Hello";
-  string b = "World";
+  String b = "World";
   
   //print
   System.out.print(a + ", " + b + "!");
