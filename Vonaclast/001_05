@@ -1,0 +1,17 @@
+public class Github {
+
+    static int x = 6;
+    static int y = 9;
+
+    static int multiplyNumbers(int numOne, int numTwo){
+
+        return numOne * numTwo;
+
+    }
+
+    public static void main (String[] args){
+
+    System.out.println(multiplyNumbers(6, 9));
+
+    }
+}
