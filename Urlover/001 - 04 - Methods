@@ -1,0 +1,25 @@
+
+public class Github {
+
+	public static void addNumbers() {
+  
+		//declare both variables with integers
+		int Num1 = 25;
+		int Num2 = 70;
+    
+		//declare variable sum and calculate sum of two integers
+		int sum = Num1 + Num2;
+		
+		//print the result
+		System.out.print(sum);
+		
+	} //end of multiplyNumbers method
+	
+	
+	public static void main(String[]arg) {
+		//call method
+		addNumbers();
+    
+	} //end of main
+	
+} //end of class
