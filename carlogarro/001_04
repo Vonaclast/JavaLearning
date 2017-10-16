@@ -1,0 +1,23 @@
+public class Main {
+
+    // Variables declaration
+
+    private static int a;
+    private static int b;
+
+    public static void main(String[] args) {
+
+        a = 25;
+        b = 75;
+
+        // Calling method addNumbers
+        addNumbers(a, b);
+
+    }
+
+    public static void addNumbers(int a, int b) {
+
+        System.out.println(a + b);
+
+    }
+}
