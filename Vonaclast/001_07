@@ -1,0 +1,15 @@
+public class Github {
+
+
+
+    public static void main (String[] args){
+
+        int x = 1;
+
+        while (x <= 100){
+            System.out.println("This is the sentence number " + x);
+            x++;
+        }
+
+    }
+}
