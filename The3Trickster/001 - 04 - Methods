@@ -1,7 +1,11 @@
-    public static void main(String[] args) {
+  // method called with args 25, 75
+  
+  public static void main(String[] args) {
         addNumbers(25, 75);
 
     }
+
+// Method created with 2 parameters
 
     public static int addNumbers(int a, int b) {
         int result = a + b;
@@ -13,3 +17,5 @@
 // My way of doing this is a little more complicated for very beginning java programmers.
 // I did it this way to make it more optimized.
 // I could have just added a return a + b; in the method and did it this way.
+// By doing it this way I'm only creating 3 ints which will only be ran when the method is called
+// this helps with memory management.
