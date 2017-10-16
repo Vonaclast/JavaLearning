@@ -1,0 +1,15 @@
+    public static void main(String[] args) {
+        addNumbers(25, 75);
+
+    }
+
+    public static int addNumbers(int a, int b) {
+        int result = a + b;
+        System.out.println(a + " + " + b + " = " + result);
+        return result;
+    }
+}
+
+// My way of doing this is a little more complicated for very beginning java programmers.
+// I did it this way to make it more optimized.
+// I could have just added a return a + b; in the method and did it this way.
