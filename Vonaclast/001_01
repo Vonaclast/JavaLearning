@@ -1,0 +1,15 @@
+public class Github {
+
+// variables declaration
+
+    static String a = "Hello";
+    static String b = "World";
+
+    public static void main (String[] args){
+    
+    //call to the print method
+
+        System.out.println(a + ", " + b + "!");
+
+    }
+}

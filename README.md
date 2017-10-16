@@ -1,7 +1,12 @@
-Different specs will be uploaded in separate folders, and more will keep on being uploaded.
+# Read this document before uploading any file! #
+
+When uploading codes, everyone must have their own folder.
+
+Please create your own folder called "your name" in which you will upload all of your files.
+
+https://i.stack.imgur.com/9Ifmj.gif
 
 Exercises will be divided in numbered folders (found in the "Projects" tab), starting from 001 (basics).
-All exercises will be numbered from 01 for easier understanding.
 
             E.G.: 001 - 01 - NameOfExercise
             
@@ -14,20 +19,18 @@ All exercises will be numbered from 01 for easier understanding.
 
 
 
-Everyone can upload as many solutions as desired in the main repository, as long as they are labeled according to their version:
+## Please use the following file location path for uploads ##
 
-      E.G.: 001_01_VariablesExercise_GM v1.0;
-            001_01_VariablesExercise_GM v1.1;
-      
+            JavaLearning/UserName/001/01
+            JavaLearning/UserName/001/02
+            ...
             and so forth.
             
-This naming convention will make it easier for all of out codes to stick together when they will increase in number.
-
-
 
 ? To upload, go in the main "<> Code" page and press on "Create new file". Paste your code in, and name it according to the above convention. 
      
      
-   ! Don't modify others' code !
+   
+   ## Ask your questions in the 'Issues' label ##
 
-   ! Ask for help as much as you want !
+To talk, ask specific questions, or anything else: feel free to text me on Telegram @Vonaclast.

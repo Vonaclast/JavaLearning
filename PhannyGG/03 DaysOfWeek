@@ -1,0 +1,51 @@
+
+/**
+ * Name: PhannyGG
+ * 
+ * Project: PhannyGG03
+ * 
+ * Description: Print the day of the week Friday and then Saturday
+ * on the next line.
+ *
+ * 
+ */
+
+import java.util.*;
+import java.io.*;
+
+public class PhannyGG03
+{
+    public static void main (String [] args)
+    {
+        
+        System.out.println("1. Monday");
+        System.out.println("2. Tuesday");
+        System.out.println("3. Wednesday");
+        System.out.println("4. Thursday");
+        System.out.println("5. Friday");
+        System.out.println("6. Saturday");
+        System.out.println("7. Sunday");
+
+        System.out.println("Please choose a number: ");
+        Scanner choice = new Scanner(System.in);
+        int ch = choice.nextInt();
+       
+        switch(ch){
+            case 1: System.out.println("Today is Monday, Tomorrow is Tuesday");
+            break;
+            case 2: System.out.println("Today is Tuesday, Tomorrow is Wednesday");
+            break;
+            case 3: System.out.println("Today is Wednesday, Tomorrow is Thursday");
+            break;
+            case 4: System.out.println("Today is Thursday, Tomorrow is Friday");
+            break;
+            case 5: System.out.println("Today is Friday, Tomorrow is Saturday");
+            break;
+            case 6: System.out.println("Today is Saturday, Tomorrow is Sunday");
+            break;
+            case 7: System.out.println("Today is Sunday, Tomorrow is Monday");
+            break;
+            default: System.out.println("Sorry that is an invalid selection");
+        }
+    }
+}

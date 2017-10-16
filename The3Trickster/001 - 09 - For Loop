@@ -1,0 +1,15 @@
+public class Main {
+
+    public static void main(String[] args) {
+        theLoop();
+    }
+
+    public static void theLoop () {
+        for (int i = 0; i <= 100; i++) {
+            System.out.println("This is line number " + i);
+        }
+    }
+}
+
+// I just created a method and ran the for loop
+// then called the method in the main method.

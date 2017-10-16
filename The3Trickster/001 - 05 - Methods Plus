@@ -1,0 +1,13 @@
+public class Main {
+
+    public static void main(String[] args) {
+       int calculation = multiplyNumbers(6, 9);
+        System.out.println(calculation);
+
+    }
+
+    public static int multiplyNumbers(int a, int b) {
+        return a * b;
+    }
+
+}

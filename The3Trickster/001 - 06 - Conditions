@@ -1,0 +1,31 @@
+public class Main {
+
+    public static void main(String[] args) {
+        numberCheck(20, 21);
+
+    }
+
+    public static void numberCheck(int a, int b) {
+        int result = a + b;
+        if (result > 40) {
+            System.out.println(result + " Is bigger than 40");
+        } else if (result < 40 && result >= 30) {
+            System.out.println(result + " is between 30 and 40");
+        } else {
+            System.out.println(result + " is not bigger than 40 and not between 30 and 40");
+        }
+
+    }
+
+}
+
+// I created a method to do the check
+// I assigned 2 parameters a and b
+// I stored these 2 in int result
+// Since I'm doing the validation in the method there is no need to return anything, this is the reason
+// I created a void method, if I actually wanted to return int result I would have made my method an int
+// and returned result that way I could assign it to an int in the main method. If I did it this way
+// and printed out my result I returned I would have gotten just the value of a + b.
+// With this void method when I create the object in the main method and assign it values, it passes
+// these to the method parameters int a, int b and then runs the code block.
+// If you guys have any questions I do not mind helping you out with my method or your own.

@@ -1,0 +1,23 @@
+public class Main {
+
+    // Variables declaration
+
+    static String [] week = new String[7];
+
+    public static void main(String[] args) {
+
+        // Declaring variables
+        week[0] = "Monday";
+        week[1] = "Tuesday";
+        week[2] = "Wednesday";
+        week[3] = "Thursday";
+        week[4] = "Friday";
+        week[5] = "Saturday";
+        week[6] = "Sunday";
+
+        // Text output
+        System.out.print("Today is " + week[5] + ". ");
+        System.out.println("Tomorrow is " + week[6] + ".");
+        
+    }
+}

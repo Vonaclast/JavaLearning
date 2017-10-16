@@ -1,0 +1,19 @@
+public class Github {
+
+// variables declaration
+
+    static int x = 100;
+    static int y = 20;
+
+    public static void main (String[] args){
+
+// calls to the print method
+
+        System.out.println(x+y);
+        System.out.println(x-y);
+        System.out.println(x*y);
+        System.out.println(x/y);
+        System.out.println(x%y);
+
+    }
+}

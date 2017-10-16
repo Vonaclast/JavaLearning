@@ -1,0 +1,14 @@
+public class Main {
+
+    // Variables declaration
+
+    static String word1 = "Hello";
+    static String word2 = "World";
+
+    public static void main(String[] args) {
+
+        // Print
+        System.out.println(word1 + ", " + word2 + "!");
+
+    }
+}

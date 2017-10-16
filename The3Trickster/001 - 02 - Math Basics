@@ -1,0 +1,15 @@
+public class Main {
+
+    public static void main(String[] args) {
+        int a = 100;
+        int b = 20;
+
+        System.out.println(a + " + " + b + " = " + (a + b));
+        System.out.println(a + " - " + b + " = " + (a - b));
+        System.out.println(a + " * " + b + " = " + (a * b));
+        System.out.println(a + " / " + b + " = " + (a / b));
+        System.out.println(a + " % " + b + " = " + (a % b));
+    }
+}
+
+// If anyone has any questions on what I did here, feel free to ask me on telegram.

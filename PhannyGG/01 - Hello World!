@@ -1,0 +1,26 @@
+
+/**
+*
+*Name: PhannyGG
+*Project: Hello World
+*
+*Description: Typing out a source code that prints
+* Hello world!
+*
+*Known bugs: none
+*
+*/
+
+
+public class PhannyGG-01 
+{
+      public static void main (String [] args)
+      {
+          String a = "Hello,";
+          
+          String b = "World!";
+          
+          System.out.println(a + " " + b);
+         
+      }
+}     
