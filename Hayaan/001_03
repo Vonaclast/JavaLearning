@@ -1,0 +1,15 @@
+public class 001_03 {
+    public static void main(String[] args) {
+        String[] week = new String[7];
+        week[0] = "Monday";
+        week[1] = "Tuesday";
+        week[2] = "Wednesday";
+        week[3] = "Thursday";
+        week[4] = "Friday";
+        week[5] = "Saturday";
+        week[6] = "Sunday";
+
+        System.out.print("Today is " + week[4] + ". ");
+        System.out.println("Tomorrow is " + week[5]".");
+    }
+}
