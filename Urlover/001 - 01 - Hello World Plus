@@ -1,0 +1,14 @@
+Public class gitHub {
+
+  public static void main(String[] args) {
+  
+  //declare variables
+  String a = "Hello";
+  String b = "World";
+  
+  //print
+  System.out.print(a + ", " + b + "!");
+  
+  } //end of main
+  
+} //end of class
