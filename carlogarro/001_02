@@ -1,0 +1,24 @@
+public class Main {
+
+    // Variables declaration
+
+    static int a = 100;
+    static int b = 20;
+    static int[] c =  new int[5];   // Array of integers (predeclaration of the size)
+
+    public static void main(String[] args) {
+
+        // Calculate
+        c[0] =  a + b;
+        c[1] = a - b;
+        c[2] =  a * b;
+        c[3] =  a / b;
+        c[4] = a % b;
+        
+        // for loop to print all the elements in the array of integers
+        for (int i = 0; i < c.length; i++) {
+            System.out.println(c[i]);
+        }
+
+    }
+}
