@@ -19,11 +19,11 @@ Exercises will be divided in numbered folders (found in the "Projects" tab), sta
 
 
 
-Everyone can upload as many solutions as desired in the main repository. Add future versions of your code as a comment in your original submission.
+## Please use the following file location path for uploads ##
 
-      E.G.: 001_01;
-            001_02;
-      
+            JavaLearning/UserName/001/01
+            JavaLearning/UserName/001/02
+            ...
             and so forth.
             
 
