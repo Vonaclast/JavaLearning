@@ -1,0 +1,27 @@
+public class Main {
+
+    // Variables declaration
+
+    private static int a;
+    private static int b;
+    private static int c;
+
+    public static void main(String[] args) {
+
+        a = 6;
+        b = 9;
+
+        // Calling method addNumbers
+        c = multiplyNumbers(a, b);
+
+        // print product
+        System.out.println(c);
+
+    }
+
+    public static int multiplyNumbers(int a, int b) {
+
+        return a * b;
+
+    }
+}
