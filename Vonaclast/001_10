@@ -1,0 +1,20 @@
+public class Github {
+
+
+    public static void main (String[] args){
+
+        int health = 100;
+        int xp = 0;
+        boolean isAlive = true;
+
+        while (health > 0){
+            xp += 12;
+            health --;
+
+        }
+
+        if (health == 0){
+            System.out.println("You are dead. You gained " + xp + "experience.");
+        }
+    }
+}
