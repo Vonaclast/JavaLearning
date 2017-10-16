@@ -1,0 +1,21 @@
+public class Main {
+
+    public static void main(String[] args) {
+        validate();
+
+    }
+
+    public static void validate () {
+        int count = 0;
+        while(count <= 100) {
+                System.out.println("This is the sentence number " + count);
+                count++;
+        }
+    }
+
+}
+
+// I made this one really easy to understand
+// I just made a method and called it in the main method
+// I could have added an if statement for additional validation that would
+// check if the number went past 100 to break the operation by using the break; keyword.
