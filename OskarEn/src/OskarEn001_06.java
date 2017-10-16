@@ -1,4 +1,4 @@
-public class OskarEn001_006 {
+public class OskarEn001_06 {
 
     public static void main(String[] args) {
 
