@@ -1,0 +1,10 @@
+class classname001_01 {
+
+	public static void main(String[] args){
+
+		String rick = "Hello";
+		String morty = "World";
+
+		System.out.println(rick + ", " + morty);
+	}
+}
