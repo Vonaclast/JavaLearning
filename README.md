@@ -33,4 +33,4 @@ Everyone can upload as many solutions as desired in the main repository. Add fut
    
    ## Ask your questions in the 'Issues' label ##
 
-To talk, ask specific question, or anything else: feel free to text me on Telegram @Vonaclast.
+To talk, ask specific questions, or anything else: feel free to text me on Telegram @Vonaclast.
