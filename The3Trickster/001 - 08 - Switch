@@ -1,0 +1,54 @@
+public class Main {
+
+    public static void main(String[] args) {
+        switchIsSoFun(1);
+
+    }
+
+    public static void switchIsSoFun (int day) {
+
+        switch (day) {
+            case 1:
+                System.out.println("Monday is day " + day);
+                break;
+
+            case 2:
+                System.out.println("Tuesday is day " + day);
+                break;
+
+            case 3:
+                System.out.println("Wednesday is day " + day);
+                break;
+
+            case 4:
+                System.out.println("Thursday is day " + day);
+                break;
+
+            case 5:
+                System.out.println("Friday is day " + day);
+                break;
+
+            case 6:
+                System.out.println("Saturday is day " + day);
+                break;
+
+            case 7:
+                System.out.println("Sunday is day " + day);
+                break;
+
+            default:
+                System.out.println("Invalid Expression");
+                break;
+        }
+    }
+
+}
+
+// For future reference, I always put what I can in a method because it helps keep clutter out of the main method
+// and helps with debugging in bigger projects, this is a good practice to have.
+// I created a method called switchIsSoFun and gave it a parameter of type int called day
+// I then created all my cases and since I'm not returning a value but passing an arguemnt from the main method 
+// to the switch method and not returning anything I just made it void.
+// When I made my object in the main method I just used 1, this number can be changed to 1 - 7, one for 
+// each day and if any other value is placed in there it will give an invalid expression.
+// If you have any questions just ask.
