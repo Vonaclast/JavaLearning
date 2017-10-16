@@ -1,0 +1,15 @@
+
+public Github Ex_001_05_MethodPlus {
+	
+	public static int multiplyNumbers(int Num1, int Num2) {
+		 
+		return Num1 * Num2;
+	} //end of multiplyNumbers method
+	
+  
+	public static void main(String[]arg) {
+		System.out.print(multiplyNumbers(6,9));
+		
+	} //end of main method
+	
+} //end of class
