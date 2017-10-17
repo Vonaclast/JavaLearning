@@ -1,0 +1,15 @@
+public class MethodsPlus_05 
+{
+    public static int a = 6;
+    public static int b = 9;
+    
+    public static void multiplyNum(int x, int y)
+    {
+        System.out.println(x*y);
+    }
+    public static void main(String[] args) 
+    {
+        multiplyNum(a, b);
+    }
+    
+}
