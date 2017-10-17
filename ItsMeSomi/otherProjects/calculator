@@ -1,0 +1,57 @@
+/** This program will ask a user for 2 numbers and either
+   add, subtract, multiply, or divide the 2 numbers. Then
+   it will print out the answer.
+   
+   @Somi 10/17/2017
+*/
+
+import javax.swing.JOptionPane;
+
+public class Calculator
+{
+   
+   public static void main(String[] args)
+   {
+      
+      double x;
+      double y;
+      String method;
+      double answer;
+      String input;
+      
+      input = JOptionPane.showInputDialog("Enter first num: ");
+      x = Double.parseDouble(input);
+      
+      input = JOptionPane.showInputDialog("Enter second num: ");
+      y = Double.parseDouble(input);
+      
+      method = JOptionPane.showInputDialog("Enter '+' '-' '*' or '/'");
+      
+      switch(method)
+      {
+         
+         case "+":
+            answer = x + y;
+            JOptionPane.showMessageDialog(null, "x + y = " + answer);
+            break;
+         case "-":
+            answer = x - y;
+            JOptionPane.showMessageDialog(null, "x - y = " + answer);
+            break;
+         case "*":
+            answer = x * y;
+            JOptionPane.showMessageDialog(null, "x * y = " + answer);
+            break;
+         case "/":
+            answer = x / y;
+            JOptionPane.showMessageDialog(null, "x / y = " + answer);
+            break;
+         default:
+            JOptionPane.showMessageDialog(null, "Invalid Entry");
+            break;
+      
+      }
+      
+   }
+   
+}
