@@ -1,0 +1,16 @@
+package com.company;
+
+public class HelloWorld {
+
+        public static void main(String[] args) {
+
+            String Shello = "Hello";
+            String Sworld = "world";
+
+            System.out.println (Shello + " " + Sworld + "!");
+
+
+
+        }
+    }
+
