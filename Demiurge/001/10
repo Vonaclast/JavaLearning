@@ -1,0 +1,29 @@
+public class BasicsGame_10 
+{
+    private static int hp = 100;
+    private static int xp = 0;
+    private static boolean isAlive = true;
+    
+    private static void fatality()
+    {
+        while (hp >=1)
+        {
+          xp += 12;
+          hp --;        
+        }
+        
+        if (hp == 0)
+        {
+            isAlive = false;
+            System.out.println("You are dead. You gained" + " " +xp + " " + "experience");
+        }
+       
+       
+    }
+    
+    public static void main(String[] args) 
+    {
+        fatality();
+    }
+    
+}
