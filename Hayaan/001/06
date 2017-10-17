@@ -1,0 +1,12 @@
+public class Github {
+    public static void main(String[] args) {
+        int num1 = 21, num2 = 15;
+        int sum = num1 + num2;
+
+        if (sum > 40) {
+            System.out.println("It is bigger than 40.");
+        } else if (sum > 30 && sum < 40) {
+            System.out.println("it is between 30 and 40.");
+        }
+    }
+}
