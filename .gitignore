@@ -3,3 +3,6 @@
 .DS_Store
 .idea/JavaLearning.iml
 OskarEn/OskarEn.iml
+*.iml
+*.html
+*.class
