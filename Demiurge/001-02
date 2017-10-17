@@ -1,0 +1,14 @@
+public class MathBasics02 
+{
+    private static int a = 100;
+    private static int b = 20;
+    
+    public static void main(String[] args) 
+    {
+        System.out.println(a+b);
+        System.out.println(a-b);
+        System.out.println(a*b);
+        System.out.println(a/b);
+        System.out.println(a%b);
+    }
+}
