@@ -21,8 +21,8 @@ Exercises will be divided in numbered folders (found in the "Projects" tab), sta
 
 ## Please use the following file location path for uploads ##
 
-            JavaLearning/UserName/001_01
-            JavaLearning/UserName/001_02
+            JavaLearning/UserName/001/01
+            JavaLearning/UserName/001/02
             ...
             and so forth.
             
