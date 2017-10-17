@@ -1,0 +1,16 @@
+
+public class BasicsGame {
+	public static void main(String[] args) {
+		int health = 100;
+		int xp = 0;
+		boolean isAlive = true;
+		
+		while (health >= 1) {
+			xp = xp + 12;
+			health = health - 1;
+		}
+		isAlive = false;
+		System.out.println("You are dead. You gained " + xp + " experience.");
+		
+	}
+}
