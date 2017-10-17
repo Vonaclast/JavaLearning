@@ -1,4 +1,4 @@
-## Please everyone submit all of your 001 projects before the 21/10.
+# The deadline for 001 is 21/10.
 
 This is to ensure progression and prevent waiting too long.
 
