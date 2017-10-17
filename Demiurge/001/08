@@ -1,0 +1,29 @@
+public class Switch_08 
+{
+    public static int day = 5;
+    public static String dayName;
+    
+    public static void main(String[] args) 
+    {
+        switch(day)
+        {
+            case 1: dayName = "Mon";
+                    break;
+            case 2: dayName = "Tue";
+                    break;
+            case 3: dayName = "Wed";
+                    break;
+            case 4: dayName = "Thur";
+                    break;
+            case 5: dayName = "Fri";
+                    break;
+            case 6: dayName = "Sat";
+                    break;
+            case 7: dayName = "Sun";
+            break;
+        }
+        
+        System.out.println(dayName);
+    }
+    
+}
