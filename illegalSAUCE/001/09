@@ -1,0 +1,10 @@
+public class ex00109 {
+
+    public static void main(String [] args){
+        String phr = "This is line number  ";
+
+        for (int i = 1; i < 101; i++) {
+            System.out.println(phr + i);
+        }
+    }
+}
