@@ -5,7 +5,7 @@ public class Game {
         int xp = 0;
         boolean isAlive = true;
 
-        for (; health > 1; health--){
+        for (; health > 0; health--){
             xp += 12;
         }
 
