@@ -1,0 +1,42 @@
+package X1;
+
+import java.util.Scanner;
+
+public class RPG {
+
+    public static void main(String[] args) {
+        int maxHealth = 100;
+        int health = 100;
+        int xp = 0;
+        boolean isAlive = true;
+
+        Scanner scan = new Scanner(System.in);
+
+        while (isAlive) {
+            System.out.println("Health: " + health);
+            System.out.println("EXP: " + xp);
+            String input = scan.next();
+
+            switch (input) {
+                case "x": health--;
+                    xp += 5;
+                    break;
+                case "y": if (xp > 0) {
+                    xp--;health += 5;
+                }
+                    if (health > maxHealth) {health = maxHealth;}
+                    if (xp < 0 ) {xp = 0;}
+                    break;
+                default: System.out.println("Invalid command");
+                    break;
+            }
+
+            if (health <= 0) {
+                System.out.println("You are dead. EXP: " + xp);
+                isAlive = false; //I guess i can get rid of break here
+                break;
+            }
+        }
+
+    }
+}
