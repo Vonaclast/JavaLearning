@@ -1,0 +1,8 @@
+public class Task3  {
+    public static void main(String[] args)  {
+          String[] weekdays = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+          
+          System.out.print("Today is " + weekdays[4] + " ");
+          System.out.println("Tomorrow is " + weekdays[5]);
+    }
+}
