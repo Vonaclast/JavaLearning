@@ -1,0 +1,13 @@
+public class ex00104 {
+
+    public static void main(String[] args){
+        int a = 25;
+        int b = 70;
+        addNumbers(a, b);
+    }
+
+    public static void addNumbers(int a, int b) {
+
+        System.out.println(a + b);
+    }
+}
