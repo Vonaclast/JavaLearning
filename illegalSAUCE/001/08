@@ -1,0 +1,38 @@
+public class ex00108 {
+
+    public static void main(String [] args) {
+
+        int day = 5;
+        String phr = "The day of the week is ";
+        String dow;
+
+        switch (day) {
+            case 1:
+                dow = "Monday";
+                break;
+            case 2:
+                dow = "Tuesday";
+                break;
+            case 3:
+                dow = "Wednesday";
+                break;
+            case 4:
+                dow = "Thursday";
+                break;
+            case 5:
+                dow = "Friday";
+                break;
+            case 6:
+                dow = "Satursday";
+                break;
+            case 7:
+                dow = "Sunday";
+                break;
+            default:
+                dow = "Invalid day";
+                break;
+        }
+
+        System.out.println(phr + dow);
+    }
+}
