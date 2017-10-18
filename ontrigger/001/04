@@ -4,11 +4,11 @@ public class Methods {
         int a = 25;
         int b = 70;
 
-        System.out.println(addNumbers(a,b));
+        addNumbers(a,b);
 
     }
 
-    private static int addNumbers(int a, int b) {
-        return a + b;
+    private static void addNumbers(int a, int b) {
+        System.out.println(a + b);
     }
 }
