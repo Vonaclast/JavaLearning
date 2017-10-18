@@ -1,0 +1,27 @@
+import java.util.*;
+
+public class RPGLogic {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		int health = 100;
+		int xp = 0;
+		int level = 1;
+		
+		while (health > 0) {
+			System.out.println("Enter a command: (x = attack, y = heal)");
+			String action = input.next();
+			
+			if (action.equals("x")) {
+				health = health - 1;
+				xp = xp + 5;
+			} else if (action.equals("y")) {
+				health = health + 5;
+				xp = xp - 1;
+			} else {
+				System.out.println("Invalid input.");
+			}
+		}
+		level = xp/5;
+		System.out.println("You died! You were level " + level);
+	}
+}
