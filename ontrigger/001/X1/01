@@ -1,0 +1,24 @@
+package X1;
+
+import java.util.Scanner;
+
+public class Squirrels {
+
+    public static void main(String[] args) {
+
+        Scanner read = new Scanner(System.in);
+        boolean wknd = read.nextBoolean();
+        int cigars = read.nextInt();
+
+
+        System.out.println(cigarParty(cigars,wknd));
+    }
+
+    private static boolean cigarParty(int cigars, boolean wknd) {
+        int upBound = 60;
+
+        if (wknd) {upBound = Integer.MAX_VALUE;}
+
+        return cigars >= 40 && cigars <= upBound ? true : false;
+    }
+}

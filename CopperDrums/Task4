@@ -1,0 +1,12 @@
+public class Task4  {
+    public static void main(String[] args)  {
+          int n1 = 25;
+          int n2 = 70;
+          
+          addNumbers(n1, n2);
+    }
+    
+    public void addNumbers(int n1, int n2)  {
+        System.out.println(n1 + n2);
+    }
+}

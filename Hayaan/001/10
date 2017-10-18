@@ -1,0 +1,16 @@
+public class Github {
+    static int health = 100;
+    static int xp = 0;
+    static boolean isAlive = true;
+
+    public static void main(String[] args) {
+        while (isAlive) { 
+            xp += 12;
+            health--;
+            System.out.println("Player attacks, gains 12 xp, loses 1 hp.");
+            if (health <= 0) 
+                {isAlive = false;}
+        }
+        System.out.println("You died with " + xp + "xp.");
+    }
+}
