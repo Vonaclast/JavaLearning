@@ -7,7 +7,7 @@ public class ex00104 {
     }
 
     public static void addNumbers(int a, int b) {
-
+        
         System.out.println(a + b);
     }
 }
