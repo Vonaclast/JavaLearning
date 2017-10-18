@@ -1,0 +1,68 @@
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Iterator;
+import java.util.Set;
+import java.util.Scanner;
+import java.lang.*;
+
+public class RiddleSolver  {
+ 
+    
+
+  
+  public static void main(String[] args)  {
+    		//Scanner reader = new Scanner(System.in);
+    		//System.out.println("Enter a number: ");
+    		//int n = reader.nextInt();
+    		
+    		int n=43216;
+    		RiddleSolver example = new RiddleSolver();
+    		System.out.println("Answer: " + example.getAnswer(n));
+  }
+  
+    private Map<Integer, Integer> getDigits(int n)  {
+      	  Map<Integer, Integer> resultMap = new HashMap<Integer, Integer>();
+      
+          while (n > 0) {
+            switch (n%10)  {
+              case 1:
+              case 2:
+              case 3:
+              case 4:
+              case 5:
+              case 7:
+              	  resultMap.put(n%10, 0);  
+            	  break;
+              case 0:
+              case 6:
+              case 9:
+              	  resultMap.put(n%10, 1);
+              	  break;
+              case 8:
+              	  resultMap.put(n%10, 2);
+                  break;
+            }
+            
+            n = n / 10;
+          }
+      
+      return resultMap;
+    }
+    
+  public int getAnswer(int n)  { 
+    Map<Integer, Integer> resultMap = getDigits(n);
+    int answer= 0;
+    
+    
+    Iterator iter = resultMap.entrySet().iterator();
+    while (iter.hasNext()) {
+   		 Map.Entry pair = (Map.Entry)iter.next();
+       // System.out.println(pair.getKey() + " = " + pair.getValue());
+        iter.remove(); 
+      	
+      	answer+= (int) pair.getValue();
+    }
+    return answer;
+  }
+    	
+ }
