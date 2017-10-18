@@ -1,0 +1,29 @@
+public class ex0110 {
+
+    public static void main(String [] args){
+
+        int health = 100;
+        int xp = 0;
+        boolean isAlive = true;
+        String [] phr = {"You are dead. You gained ", " experience."};
+
+        while (health > 0) {
+            xp += 12;
+            health--;
+            if (health == 0) {
+                System.out.println(phr[0] + xp + phr[1]);
+            }
+        }
+
+        // With boolean
+        while (isAlive) {
+            if (health > 0) {
+                xp += 12;
+                health--;
+            } else {
+                isAlive = false;
+                System.out.println(phr[0] + xp + phr[1]);
+            }
+        }
+    }
+}
