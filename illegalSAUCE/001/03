@@ -6,6 +6,5 @@ public class ex00103 {
         
         System.out.print(phr[0] + days[4] + phr[2]);
         System.out.print(phr[1] + days[5] + phr[3]);
-
     }
 }
