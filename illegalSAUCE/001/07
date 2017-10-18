@@ -1,0 +1,13 @@
+public class ex00107 {
+
+    public static void main(String [] args) {
+        String phr = "This is the sentence number ";
+        int num = 1;
+        
+        while (num < 101) {
+            System.out.println(phr + num);
+            num++;
+        }
+
+    }
+}
