@@ -7,7 +7,6 @@ public class ex00106 {
 
         if (c > 40) {
             System.out.print("It is bigger than 40");
-        
         } else if (c < 40 && c > 30) {
             System.out.print("It is between 30 and 40");
         
