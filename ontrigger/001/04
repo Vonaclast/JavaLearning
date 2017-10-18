@@ -1,0 +1,14 @@
+public class Methods {
+
+    public static void main(String[] args) {
+        int a = 25;
+        int b = 70;
+
+        System.out.println(addNumbers(a,b));
+
+    }
+
+    private static int addNumbers(int a, int b) {
+        return a + b;
+    }
+}
