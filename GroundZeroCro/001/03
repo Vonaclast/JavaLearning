@@ -5,7 +5,7 @@ public class Main {
 		
 		String days[]= {"Monday", "Thuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
 		
-		System.out.println("Tomorrow is "+days[4]+".");
+		System.out.println("Today is "+days[4]+".");
 		
 		System.out.println("Tomorrow is "+days[5]+".");
 	}
