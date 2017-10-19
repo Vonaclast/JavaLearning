@@ -1,9 +1,9 @@
 // Kristy Li
 // October 17, 2017
-// Program: concatenate.java
+// Program: xhl2_001_01.java
 // Output "Hello, World!" using strings
 
-public class concatenate {
+public class xhl2_001_01 {
     public static void main(String[] args) {
         String a = "Hello,";
         String b = "World!";
