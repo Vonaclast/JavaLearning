@@ -1,1 +1,11 @@
-
+public class Main {
+	
+	
+	public static void main  (String[]args){
+		
+		int x = 100;
+		int y = 20;
+		
+		System.out.println((x+y)+"\n"+(x-y)+"\n"+(x*2)+"\n"+(x/y)+"\n"+(x%y));
+	}
+}
