@@ -16,7 +16,8 @@ public class Car{
         class LocalClass{
             //my Guess would be that, this is used for just this method, 
             //and non of the other outside folks can't reach this class values. Not sure, never used it.
-            //Maybe you could possibly change global variable values inside this method/local class.
+            //Maybe you could possibly change global variable values inside this method/local class, but only
+            //for this method, globaly values will still be global numbers.
         }
     }
   
