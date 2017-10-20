@@ -1,0 +1,15 @@
+public class GitHub{
+    
+    
+     public static void main(String []args){
+         
+        int x = 21;
+        int y = 15;
+        
+        if(x+y >40){
+            System.out.println("It is bigger then 40.");
+        }else if( x+y <= 40 && x+y > 30 ){
+            System.out.println("It is between 30 and 40.");
+        }
+     }
+}
