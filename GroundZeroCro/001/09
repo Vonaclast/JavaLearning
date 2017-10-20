@@ -1,0 +1,12 @@
+public class GitHub{
+    
+    
+    public static void main(String []args){
+    
+       String s = "This is line number ";
+       
+       for( int x=1 ; x<=100 ; ++x ){
+           System.out.println(s+x);
+       }
+    }
+}
