@@ -1,0 +1,21 @@
+// Kristy Li
+// October 20, 2017
+// Program: xhl2_001_05.java
+// Create a method named multiplyNumbers(), which returns the result of the multiplication of 6 and 9
+
+public class xhl2_001_05 {
+    public static void main(String[] args) {
+        int number1 = 6;
+        int number2 = 9;
+
+        System.out.print("The product of " + number1 + " and " + number2 + " is ");
+        System.out.print(multiplyNumbers(number1, number2));
+        System.out.print(".");
+    }
+
+    public static int multiplyNumbers(int number1, int number2) {
+        int multiplication;
+        multiplication = number1 * number2;
+        return multiplication;
+    }
+}
