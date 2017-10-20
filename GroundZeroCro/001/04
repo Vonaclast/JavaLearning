@@ -1,0 +1,16 @@
+public class GitHub{
+    
+    static int x = 25;
+    static int y = 70;
+
+    static public void addNumbers(){
+        System.out.println(x+y);
+        
+    }
+
+     public static void main(String []args){
+         
+         addNumbers();
+       
+     }
+}
