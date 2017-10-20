@@ -11,12 +11,6 @@ public class Car{
         z=isEngineOn;
     }
     
-    static void method(){
-        
-        class LocalClass{
-            //my Guess would be that, this is used for just this method, and non of the other outside folks can't reach this class values. Not sure, never used it.
-        }
-    }
   
     public static void main(String []args){
       
