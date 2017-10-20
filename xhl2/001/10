@@ -1,0 +1,24 @@
+// Kristy Li
+// October 20, 2017
+// Program: xhl2_001_10.java
+// Create a basic game, where the player gains 12 experience points and loses 1 health point, until health reaches 0
+
+public class xh12_001_10 {
+    public static void main(String[] args) {
+
+        int health = 100;
+        int xp = 0;
+        boolean isAlive = true;
+
+        while(isAlive) {
+            if (health >= 1) {
+                xp += 12;
+                health--;
+            }
+            else {
+                isAlive = false;
+            }
+        }
+        System.out.println("You are dead. You gained " + xp + " experience points.");
+    }
+}
