@@ -1,0 +1,20 @@
+// Kristy Li
+// October 20, 2017
+// Program: xhl2_001_06.java
+// Add two integers and use if and else statements to check the condition
+
+public class xhl2_001_06 {
+    public static void main(String[] args) {
+        int number1 = 21;
+        int number2 = 15;
+        int sum = number1 + number2;
+
+        if(sum > 40) {
+            System.out.println("It is bigger than 40.");
+        }
+        
+        else if(sum > 30 && sum < 40) {
+            System.out.println("It is between 30 and 40.");
+        }
+    }
+}
