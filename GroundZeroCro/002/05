@@ -14,7 +14,7 @@ public class Car{
     static void method(){
         
         class LocalClass{
-            //my Guess would be that, this is used for just this method, and non of the other outside folks can't reach this class values. Not sure, never used it.
+            //my Guess would be that, this is used for just this method, and non of the other outside folks can't reach this class values. Not sure, never used it. Maybe you could possibly change variable values inside this method/local class.
         }
     }
   
