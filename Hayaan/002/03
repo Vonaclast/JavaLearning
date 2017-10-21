@@ -1,0 +1,17 @@
+public class Car {
+    public int maxSpeed;
+    public String colour;
+    public boolean isEngineOn;
+
+    public Car(int maxSpeed, String colour, boolean isEngineOn) {
+        this.maxSpeed = maxSpeed;
+        this.colour = colour;
+        this.isEngineOn = isEngineOn;
+    }
+
+    public static void main(String[] args) {
+        Car toyota = new Car(180, "red", false);
+        System.out.println("This car has a maximum speed of " + toyota.maxSpeed + ", is " + toyota.colour + 
+        " and the boolean seems to be " + toyota.isEngineOn);
+    }
+}
