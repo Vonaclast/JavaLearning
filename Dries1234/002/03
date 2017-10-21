@@ -1,0 +1,15 @@
+package com.OO2;
+
+public class ObjectCreation {
+    public static void main (String[] args) {
+
+        //Exercise 02
+
+        Car toyota = new Car (180, "red", false);
+        //Exercise 03
+
+        System.out.println ("The car has a maximum speed of " + toyota.mSpeed +
+                ", is " + toyota.carColour
+                + " and the boolean seems to be " + toyota.engine);
+    }
+}
