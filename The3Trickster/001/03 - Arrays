@@ -1,0 +1,16 @@
+public class Main {
+
+    public static void main(String[] args) {
+        String[] arrays = new String[7];
+        arrays[0] = "Monday";
+        arrays[1] = "Tuesday";
+        arrays[2] = "Wednesday";
+        arrays[3] = "Thursday";
+        arrays[4] = "Friday";
+        arrays[5] = "Saturday";
+        arrays[6] = "Sunday";
+
+        System.out.println("Today is " + arrays[4] + "\n" + "Tomorrow is " + arrays[5]);
+    }
+
+}
