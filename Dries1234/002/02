@@ -1,0 +1,8 @@
+package com.OO2;
+
+public class ObjectCreation {
+    public static void main (String[] args) {
+
+        //Exercise 02
+
+        Car toyota = new Car (180, "red", false);
