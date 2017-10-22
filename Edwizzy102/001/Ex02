@@ -1,0 +1,12 @@
+public class Ex02 {
+    public static void main(String[] args) {
+        int x = 100;
+        int y = 20;
+
+        System.out.printf("%d", x + y);
+        System.out.printf("%d", x - y);
+        System.out.printf("%d", x * y);
+        System.out.printf("%d", x / y);
+        System.out.printf("%d", x % y);
+    }
+}
