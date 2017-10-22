@@ -1,9 +1,9 @@
 // Kristy Li
 // October 17, 2017
-// Program: calculator.java
+// Program: xhl2_001_02.java
 // Performs calculations of two integers, 100 and 20
 
-public class calculator {
+public class xhl2_001_02 {
     public static void main(String[] args) {
         int a = 100;
         int b = 20;

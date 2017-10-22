@@ -1,0 +1,15 @@
+// Kristy Li
+// October 19, 2017
+// Program: xhl2_001_03.java
+// Declare an array, which holds 7 strings (days of the week)
+// Output "Today is Friday." and "Tomorrow is Saturday." on the same line
+
+public class xhl2_001_03 {
+    public static void main(String[] args) {
+
+        String[] weekDays = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+
+        System.out.print("Today is " + weekDays[4] + ".");
+        System.out.print(" " + "Tomorrow is " + weekDays[5] + ".");
+    }
+}

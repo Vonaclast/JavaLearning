@@ -1,0 +1,20 @@
+// Kristy Li
+// October 20, 2017
+// Program: xhl2_001_04.java
+// Create a method named addNumbers(), which adds the two integers
+
+public class xhl2_001_04 {
+    public static void main(String[] args) {
+        int number1 = 25;
+        int number2 = 70;
+
+        System.out.print("The sum of " + number1 + " and " + number2 + " is ");
+        addNumbers(number1, number2);
+        System.out.print(".");
+    }
+
+    public static void addNumbers(int number1, int number2) {
+        int addition;
+        addition = number1 + number2;
+        System.out.print(addition);
+    }

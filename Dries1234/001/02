@@ -1,0 +1,23 @@
+package com.company;
+
+public class MathBasics {
+
+    public static void main(String[] args) {
+
+        int int1 = 100;
+        int int2 = 20;
+
+        int add = int1 + int2;
+        System.out.println (int1 + "+" + int2 + "=" + add);
+        int substract = int1 - int2;
+        System.out.println (int1 + "-" + int2 + "=" + substract);
+        int multiply = int1 * int2;
+        System.out.println (int1 + "*" + int2 + "=" + multiply);
+        int devide = int1 / int2;
+        System.out.println (int1 + "/" + int2 + "=" + devide);
+        int remainder = int1%int2;
+        System.out.println (int1 + "%" + int2 + "=" + remainder);
+
+    }
+
+}
