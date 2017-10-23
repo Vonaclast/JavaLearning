@@ -1,0 +1,31 @@
+public class Car{
+    
+    int x;
+    String y;
+    boolean z;
+    
+    Car(int maxSpeed, String color, boolean isEngineOn){
+        
+        x=maxSpeed;
+        y=color;
+        z=isEngineOn;
+    }
+    
+  
+    public static void main(String []args){
+      
+         Car toyota = new Car(180, "Red", false);
+   
+        System.out.println("The car has maximum speed of "+toyota.x
+        +", is "+toyota.y+" and the boolean seems to be "+toyota.z+".");
+        
+     
+    }
+    
+    class Ferrari{
+        
+    }
+    static class Porsche{
+        
+    }
+}

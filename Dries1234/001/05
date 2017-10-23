@@ -1,0 +1,14 @@
+package com.company;
+
+public class MethodsPlus {
+    static int x = 6;
+    static int y = 9;
+
+    static int multiplyNumbers(){
+        return x * y;
+    }
+    public static void main(String[] args){
+        System.out.println (multiplyNumbers ());
+    }
+
+}

@@ -1,0 +1,13 @@
+// Kristy Li
+// October 20, 2017
+// Program: xhl2_001_09.java
+// Use a for loop to print the string 100 times
+
+public class xh12_001_09 {
+    public static void main(String[] args) {
+
+        for(int i = 1; i <= 100; i++) {
+            System.out.println("This is line number " + i);
+        }
+    }
+}

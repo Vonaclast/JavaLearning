@@ -1,0 +1,16 @@
+// Kristy Li
+// October 20, 2017
+// Program: xhl2_001_07.java
+// Use a while loop to print the string 100 times
+
+public class xh12_001_07 {
+    public static void main(String[] args) {
+        int counter = 1;
+
+        while(counter <= 100) {
+            System.out.println("This is the sentence number " + counter);
+            counter++;
+        }
+
+    }
+}

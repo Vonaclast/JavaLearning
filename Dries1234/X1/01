@@ -1,0 +1,41 @@
+package com.X1;
+
+import java.util.Random;
+
+public class SquirrelParty {
+    public static void main(String[] args){
+
+        String[] days = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+        int cigares;
+        boolean succesful = true;
+        Random r = new Random ();
+
+        int randomDays = r.nextInt (days.length);
+        System.out.println (randomDays);
+        cigares = (int)(Math.random () * 70) + 1;
+        if(randomDays <= 4){
+            if (cigares >= 40 && cigares <= 60) {
+                succesful = true;
+            }
+            else if (cigares < 40){
+                succesful = false;
+                }
+            }
+        else if (randomDays > 4 ){
+            if(cigares >= 40){
+                succesful = true;
+            }
+            else if (cigares < 40){
+                succesful = false;
+            }
+        }
+            if(!succesful){
+            System.out.println ("The party is not succesful");
+        }
+        else if (succesful){
+            System.out.println ("The party is succesful");
+            }
+
+
+    }
+}

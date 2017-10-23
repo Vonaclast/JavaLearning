@@ -1,0 +1,48 @@
+package org.ZeroZeroOne;
+//option1
+public class BasicGame {
+    public static void main(String[] args) throws InterruptedException {
+        int health = 100;
+        int xp = 0;
+        boolean isAlive = true;
+        while(isAlive){
+            if(health >= 1) {
+                System.out.println ("You attacked a monster!");
+                System.out.println ("You lose 1 hp");
+                System.out.println ("You gain 12xp");
+                health--;
+                xp = xp + 12;
+                Thread.sleep (100);
+
+
+            }
+            else if(health < 1){
+                isAlive = false;
+
+                }
+            }
+            System.out.println ("You died,you gained " + xp + " experience");
+        }
+
+    }
+    //-------------------------------------------------Seperation--------------------------------------------------
+    //2nd Option
+    
+    package org.ZeroZeroOne;
+
+public class BasicGame {
+    public static void main(String[] args) throws InterruptedException {
+     int health = 100;
+        int xp = 0;
+        while(health >= 1){
+            System.out.println ("You attacked a monster!");
+            System.out.println ("You lose 1 hp");
+            System.out.println ("You gain 12xp");
+            health--;
+            xp = xp + 12;
+            Thread.sleep (100);
+        }
+        System.out.println ("You are dead, you gained " + xp + " experience");
+
+        }
+    }
