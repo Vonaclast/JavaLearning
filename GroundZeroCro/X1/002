@@ -1,0 +1,41 @@
+public class Main{
+    
+     public static void main(String []args){
+         
+        //0 = no ticket
+        //1 = small ticket
+        //2 = big ticket
+       
+        System.out.println( prayForSchumacher(82, false));
+         
+     
+     }
+     
+     static public int prayForSchumacher(int speed, boolean birthday){
+            int ticket= 0;
+            
+        if(!birthday){
+      
+        if ( speed <= 60){
+          ticket=0;
+        }else if ( speed >60 && speed <=80){
+          ticket=1;
+        }else if(speed >80){
+           ticket=2;
+        }
+        }
+         
+         
+        else if (birthday){
+        
+        if ( speed <= 65){
+          ticket=0;
+        }else if ( speed >65 && speed <=85){
+          ticket=1;
+        } else if(speed >85){
+          ticket=2;
+        }  
+        }
+          return ticket;
+     }
+}
