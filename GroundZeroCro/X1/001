@@ -1,0 +1,16 @@
+public class Main{
+       
+     public static void main(String []args){
+     
+        System.out.println( crazyGuys(30, false));  
+     }
+     
+     static public boolean crazyGuys(int cigars, boolean weekend){
+         if(cigars >= 40 && cigars<=60 && weekend){
+             return true;
+         }else if(cigars >= 40 && weekend){
+             return true;
+         }else return false;
+         
+     } 
+}
