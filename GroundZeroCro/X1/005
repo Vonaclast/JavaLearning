@@ -1,25 +1,7 @@
 import java.util.Scanner;
 
 public class HelloWorld{
-/*Create an RPG game concept using only the command line.
 
-The player starts with 100 health points, 0 experience points and is level 1.
-
-Every time the player writes the letter 'x' to the console, the player will attack the enemy.
-
-**Attacking** the enemy leads to:
-
-Player gains 5 experience points;
-Player loses 1 health point.
-
-Every time the player writes the letter 'y' to the console, the player will heal himself.
-
-**Healing** himself leads to:
-
-Player loses 1 experience point;
-Player gains 5 health points.
-
-**BONUS**: use System console outputs to make the gaming experience more realistic for a hypothetical end user.*/
      public static void main(String []args){
          
          Scanner input = new Scanner(System.in);
@@ -33,7 +15,7 @@ Player gains 5 health points.
          if(myLine.equals("x"){
              experience+=5;
              health-=1;
-             System.out.println("Attacking enemy caused you to have "+experience+" points and "+health+" health.");
+             System.out.println("Attacking enemy caused you to have "+experience+" expirience points and "+health+" health.");
          }else if (myLine.equals("y"){
              experience-=1;
              health+=5;
