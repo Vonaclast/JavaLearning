@@ -4,8 +4,10 @@ public class WhileLoop {
 	
 	public static void main(String[] args) {
 		
-		for(int x = 1; x < 101; x++) {
+		int x = 1;
+		while(x < 101) {
 			System.out.println("This the sentence number " + x);
+			x++;
 		}
 	}
 
