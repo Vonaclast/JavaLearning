@@ -1,0 +1,18 @@
+package Task_001;
+
+public class Methods {
+	
+	public static void main(String[] args) {
+		
+		int num1 = 25;
+		int num2 = 70;
+	
+		addNumbers(num1, num2);
+	}
+	
+
+	public static void addNumbers(int a, int b) {
+		   System.out.println(a + b);
+	}
+
+}
