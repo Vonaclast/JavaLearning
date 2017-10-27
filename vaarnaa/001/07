@@ -1,0 +1,12 @@
+package Task_001;
+
+public class WhileLoop {
+	
+	public static void main(String[] args) {
+		
+		for(int x = 1; x < 101; x++) {
+			System.out.println("This the sentence number " + x);
+		}
+	}
+
+}
