@@ -1,0 +1,12 @@
+public class Car {
+    
+   private int maxSpeed;
+   private String colour;
+   private boolean isEngineOn;
+
+    public Car(int maxSpeed, String colour, boolean isEngineOn) {
+        this.maxSpeed = maxSpeed;
+        this.colour = colour;
+        this.isEngineOn = isEngineOn;
+    }
+}
