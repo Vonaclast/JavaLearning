@@ -1,0 +1,72 @@
+public class App 
+{
+    public static int correctAns = 0;
+    
+   
+    public static void questMap()
+    {
+        Map<Integer, String> question = new HashMap<>();
+        
+        question.put(3, "What is the capital of Alaska??" + '\n' 
+                                    + "1) Melbourne" + '\n'
+                                    + "2) Anchorage" + '\n'
+                                    + "3) Juneau" + '\n');
+        question.put(1, "Can you store the value \"cat\" in a variable of type int?" + '\n'
+                                    + "1) no" + '\n'
+                                    + "2) yes" + '\n');
+        question.put(2, "What is the result of 9+6/3" + '\n'
+                                    + "1) 5" + '\n'
+                                    + "2) 11" + '\n'
+                                    + "3) 15/3" + '\n');
+        
+
+        int checkA = 0;
+        Scanner anSc = new Scanner(System.in);
+       
+       Iterator it = question.entrySet().iterator();
+        while(it.hasNext())
+        {
+            Map.Entry<Integer,String> pair = (Map.Entry)it.next();
+            Integer questKey = pair.getKey();
+            String questValue = pair.getValue();
+            
+            System.out.println(questValue);
+            checkA = anSc.nextInt();
+ 
+            if(checkA == questKey)
+                {
+                    correctAns ++;
+                    System.out.println("Correct!");
+                }
+            else
+                {
+                    System.out.println("You're wrong");
+                }
+        }
+        System.out.println("You have" + " " + correctAns + " "
+                + "correct answers out of" + " " + question.size() + " " + "questions." 
+                        + " " + "Congrats!");
+      
+    }
+        
+    
+    
+    public static void main(String[] args) 
+    {
+        Scanner sc = new Scanner(System.in);
+        int start = 0;
+        
+        System.out.println("Are you ready for a quiz?" + '\n'
+                            + "1) Let's do it" + '\n'
+                            + "2) Nah" + '\n');
+        start = sc.nextInt();
+       
+        switch (start)
+        {
+            case 1: questMap();
+                    break;
+            case 2: System.out.println("Have a good day");
+        }
+        
+    }
+}
