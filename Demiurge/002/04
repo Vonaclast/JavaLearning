@@ -1,0 +1,39 @@
+public class Nested_Car 
+{    
+    
+    private class nonStaticInnerClass
+    {
+        public void nonStOutput()
+        {
+            System.out.println("Non-static inner class");
+        }
+    }
+    
+    public void displayNonStat()
+    {
+        nonStaticInnerClass nonStatic = new nonStaticInnerClass();
+        nonStatic.nonStOutput();
+    }
+    
+    
+    
+    static class staticInnerClass
+    {
+        public void stOutput()
+        {
+            System.out.println("Static inner class");
+        }
+    }
+    
+    
+    
+    public static void main(String[] args) 
+    {
+        Nested_Car nestedNonStatic = new Nested_Car();
+        nestedNonStatic.displayNonStat();
+        
+        
+        Nested_Car.staticInnerClass nestedStatIn = new Nested_Car.staticInnerClass();
+        nestedStatIn.stOutput();              
+    }
+}
