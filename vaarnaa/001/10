@@ -1,0 +1,21 @@
+package Task_001;
+
+public class BasicsGame {
+
+	public static void main(String[] args) {
+		
+		int health = 100;
+		int xp = 0;
+		boolean isAlive = true;
+		
+		while(isAlive) {
+			xp += 12;
+			health -= 1;
+			
+			if (health == 0) 
+				isAlive = false;
+		}
+		
+		System.out.println("You are dead. You gained " + xp + " experience");
+	}
+}
