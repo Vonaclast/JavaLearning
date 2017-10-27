@@ -1,0 +1,19 @@
+public class Car_Instance
+{
+    static int n;
+    String a;
+    boolean boo;
+    
+    Car_Instance(int maxSpeed, String colour, boolean isEngineOn)
+    {
+        n = maxSpeed;
+        a = colour;
+        boo = isEngineOn;
+    }
+    
+    public static void main(String[] args) 
+    {
+        Car_Instance toyota = new Car_Instance (180, "Red", false);
+    }
+    
+}
