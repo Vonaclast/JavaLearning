@@ -1,0 +1,24 @@
+public class Car_App 
+{
+    static int n;
+    String a;
+    boolean boo;
+    
+    Car_App(int maxSpeed, String colour, boolean isEngineOn)
+    {
+        n = maxSpeed;
+        a = colour;
+        boo = isEngineOn;
+    }
+    
+    public static void main(String[] args) 
+    {
+        Car_App toyota = new Car_App (180, "Red", false);
+        
+        System.out.println("The car has max speed of" + " " + toyota.n + " " + "is" 
+                            + " " + toyota.a + " " + "and the boolean seems to be" + " " 
+                            + toyota.boo);
+    }
+
+    
+}
