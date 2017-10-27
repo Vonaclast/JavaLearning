@@ -1,0 +1,11 @@
+package Task_001;
+
+public class Arrays {
+	public static void main(String[] args) {
+		
+		String[] strArray = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+		
+		System.out.print("Today is " + strArray[4] + ".");
+		System.out.println("Tomorrow is " + strArray[5] + ".");
+	}
+}
