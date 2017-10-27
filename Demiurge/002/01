@@ -1,0 +1,19 @@
+public class Car 
+{
+    static int n;
+    String a;
+    boolean boo;
+    
+    Car(int maxSpeed, String colour, boolean isEngineOn)
+    {
+        n = maxSpeed;
+        a = colour;
+        boo = isEngineOn;
+    }
+    
+    public static void main(String[] args) 
+    {
+              
+    }
+    
+}
