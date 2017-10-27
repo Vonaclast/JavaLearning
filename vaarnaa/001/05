@@ -1,0 +1,17 @@
+package Task_001;
+
+public class MethodsPlus {
+
+	public static void main(String[] args) {
+		
+		int num1 = 6;
+		int num2 = 9;
+		
+		System.out.println(multiplyNumbers(num1, num2));
+	}
+	
+	
+	public static int multiplyNumbers(int a, int b) {
+		   return(a * b);
+	}
+}
