@@ -1,0 +1,7 @@
+public static void main(String[] args) {
+
+        Car car = new Car(180, "Red", false);
+        
+        System.out.println("The car has a max speed of " + car.getMaxSpeed()
+        + " is " + car.getColour() + " and the boolean seems to be " + car.isEngineOn());
+    }
