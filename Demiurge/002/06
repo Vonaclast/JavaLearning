@@ -1,0 +1,55 @@
+public class Car_Anon 
+{       
+    public interface Car_Specs
+    {
+        public int cSpeed();
+    }
+    
+    public static void compareMaxSpeed()
+    {
+        Car_Specs bmwCar = new Car_Specs()
+        {         
+            int bmwSpeed;
+            Scanner speedSc = new Scanner(System.in);
+            public int cSpeed()
+            {
+                System.out.println("Input your BMW's speed: ");
+                bmwSpeed = speedSc.nextInt();
+                System.out.println("My speed is " + bmwSpeed);
+                return bmwSpeed;              
+            }                   
+        };
+        
+        Car_Specs teslaCar = new Car_Specs()
+        {
+            int teslaSpeed;
+            Scanner speedSc = new Scanner(System.in);
+           
+           public int cSpeed()
+           {
+               System.out.println("Input your tesla's speed: ");
+               teslaSpeed = speedSc.nextInt();
+               System.out.println("My speed is " + teslaSpeed);
+               return teslaSpeed;
+           }
+        };
+        
+        if(bmwCar.cSpeed() > teslaCar.cSpeed())
+        {
+            System.out.println("BMW faster");
+        }
+        else
+        {
+            System.out.println("Tesla faster");
+        }
+    }
+    
+    
+    
+    public static void main(String[] args) 
+    {
+        Car_Anon carsComparing = new Car_Anon();
+        carsComparing.compareMaxSpeed();
+    }
+    
+}
