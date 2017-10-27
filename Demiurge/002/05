@@ -1,0 +1,50 @@
+public class Car_Class 
+{
+   
+    public static void checkCarTrunk()
+    {             
+        class CarTrunk
+        {   
+            public Boolean putIn()
+            {
+                boolean isEmpty = true;
+                Scanner sc = new Scanner(System.in);
+                String s1;
+                System.out.println("Would you like to put something in?");
+                s1 = sc.nextLine();
+                
+                if(!s1.isEmpty())
+                {
+                    isEmpty = false;
+                }
+                else
+                {
+                    System.out.println("Bla");
+                }
+                System.out.println("Okay. Now you have " + " " + s1 + " " + "in your trunk");
+               
+                return isEmpty;
+            }
+            
+        }
+        
+        CarTrunk callMeth = new CarTrunk();
+        
+        if (callMeth.putIn() == true)
+            {
+                System.out.println("Empty");
+            }
+        else
+            {
+                System.out.println("There's something in there");
+            }   
+    }
+    
+    
+    public static void main(String[] args) 
+    {
+        checkCarTrunk();
+        System.out.println("This worked");
+    }
+    
+}
