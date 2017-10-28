@@ -1,0 +1,81 @@
+public class RPG_Concept 
+{
+    class Player
+    {
+        int health = 100;
+        int exp = 0;
+        int level = 1;
+    }
+    
+    Player pl = new Player();
+    
+    public void faq()
+    {
+        System.out.println("You start with " + " " + pl.health + " " + "health, " 
+                                             + " " + pl.exp + " " + "points"
+                                             + "and you level" + " " + pl.level);
+        System.out.println("To fight press \"x\" button on your keyboard. "
+                           + "You will lose 1 health point, but will get"
+                           + " " + "5 exp points");
+        System.out.println("To heal yourself press \"y\" button on your keyboard." + " "
+                           + "You'll get 5 health points, but lose 1 exp" + '\n');
+    }
+    
+    public void game()
+    {      
+        String inp;
+        boolean cont = true;
+        Scanner sc = new Scanner(System.in);
+        
+        while(cont)
+        {
+                System.out.println("Do you want to fight \"x\", heal \"y\" or exit \"e\"");
+                inp = sc.nextLine();
+                switch(inp)
+                {
+                    case "x": System.out.println("You choose to fight the enemy");
+                              System.out.println("You had" + " " + pl.health + " " + "health," 
+                                                + " " + pl.exp + " " + "points" + " "
+                                                + "and your level was" + " " + pl.level);
+                              pl.exp +=5;
+                              pl.health --;
+                              if(Integer.toString(pl.exp).contains("0"))
+                                {
+                                    pl.level++;
+                                }
+                              System.out.println("Now you have" + " " + pl.health + " " + "health," 
+                                                + " " + pl.exp + " " + "points" + " "
+                                                + "and your level is" + " " + pl.level + '\n');
+                              break;
+
+                    case "y": System.out.println("You choose healing");
+                              System.out.println("You had" + " " + pl.health + " " + "health," 
+                                                + " " + pl.exp + " " + "points" + " "
+                                                + "and your level was" + " " + pl.level);
+                              pl.exp --;
+                              pl.health += 5;
+                              System.out.println("Now you have" + " " + pl.health + " " + "health," 
+                                                + " " + pl.exp + " " + "points" + " "
+                                                + "and your level is" + " " + pl.level + '\n');
+                              break;
+                              
+                    case "e":   cont = false;
+                                System.out.println("Bye");
+                                break;
+                }     
+        }
+  
+        System.out.println("You finished your game. Your final stats are:" + " "
+                           + "You have" + " " + pl.health + " " + "health," 
+                                            + " " + pl.exp + " " + "points" + " "
+                                            + "and your level is" + " " + pl.level);
+        
+    }
+    
+    public static void main(String[] args) 
+    {
+        new RPG_Concept().faq();
+        new RPG_Concept().game();
+    }
+    
+}
