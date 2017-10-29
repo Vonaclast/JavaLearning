@@ -1,0 +1,19 @@
+public class MathBasics {
+    public static void main(String[] args){
+        int x = 100;
+        int y = 20;
+
+        int sum = x + y;
+        int dif = x - y;
+        int sol = x * y;
+        int quo = x / y;
+        int rem = x % y;
+
+        System.out.println("The sum of x + y is: " + sum);
+        System.out.println("The difference of x - y is: " + dif);
+        System.out.println("The solution of x * y is: " + sol);
+        System.out.println("The quotion of x \\ y is: " + quo);
+        System.out.println("The remainder of x % y is: " + rem);
+
+    }
+}
