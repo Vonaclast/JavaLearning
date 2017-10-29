@@ -1,0 +1,8 @@
+public class Arrays {
+    public static void main(String[] args){
+
+        String[] dow = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+
+        System.out.println("Today is "+ dow[4] + ". " + "Tomorrow will be " + dow[5]);
+    }
+}
