@@ -1,0 +1,12 @@
+public class Car {
+
+    private int maxSpeed;
+    private String color;
+    private boolean isEngineOn;
+
+    public Car(int max, String c, boolean engine){
+        maxSpeed = max;
+        color = c;
+        isEngineOn = engine;
+    }
+}
