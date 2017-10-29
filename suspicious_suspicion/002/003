@@ -1,0 +1,7 @@
+public class ObjectCreation {
+    public static void main(String[] args){
+        Car toyota = new Car(120,"black", false);
+        System.out.println("The car has a maximum speed of " + toyota.getMaxSpeed() + ", "
+        + toyota.getColor() + ", and the boolean seems to be " + toyota.getIsEngineOn());
+    }
+}
