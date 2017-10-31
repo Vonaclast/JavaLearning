@@ -1,0 +1,37 @@
+public class Squirrel_Logic 
+{
+    private static String[] daysW = { "Mon", 
+                                      "Tues", 
+                                      "Wed", 
+                                      "Thu", 
+                                      "Fri", 
+                                      "Sat", 
+                                      "Sun" 
+                                    }; 
+                                    
+    int sig = ThreadLocalRandom.current().nextInt(1,101);
+    
+    Random r = new Random();
+    int dayI = r.nextInt(daysW.length);
+    
+    boolean partySuc()
+    {
+            boolean sigCheck;
+            if(dayI != daysW.length-1 && dayI != daysW.length-2 && sig >= 40 && sig<= 60)
+                {
+                    sigCheck = true;
+                }
+            else
+                {
+                    sigCheck = false;
+                }
+            
+         System.out.println(dayI + " " + sig + " " + sigCheck);
+         return sigCheck;       
+    }
+    
+    public static void main(String[] args) 
+    {
+       new  Squirrel_Logic().partySuc();                
+    }
+}
