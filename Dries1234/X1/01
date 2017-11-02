@@ -11,7 +11,7 @@ public class SquirrelParty {
         Random r = new Random ();
 
         int randomDays = r.nextInt (days.length);
-        System.out.println (randomDays);
+
         cigares = (int)(Math.random () * 70) + 1;
         if(randomDays <= 4){
             if (cigares >= 40 && cigares <= 60) {
