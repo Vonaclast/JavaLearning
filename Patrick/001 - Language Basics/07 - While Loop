@@ -1,0 +1,21 @@
+/**
+ * @Author: Patrick de Jong
+ * @version: 1.0
+ *
+ */
+public class WhileLoop
+{
+    public static void main(String[] args)
+    {
+        WhileLoop(0);
+    }
+
+    public static void WhileLoop(int startingNumber)
+    {
+        while(startingNumber <= 100)
+        {
+            System.out.println("This is sentence number: " + startingNumber);
+            startingNumber++;
+        }
+    }
+}
