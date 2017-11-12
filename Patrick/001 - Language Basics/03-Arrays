@@ -1,0 +1,25 @@
+/**
+ * @Author: Patrick de Jong
+ * @version: 1.0
+ *
+ */
+import java.util.ArrayList;
+
+public class Arrays {
+
+    public static void main(String[] args) {
+        //New arrayList made
+        ArrayList list = new ArrayList();
+        list.add("Monday");
+        list.add("Tuesday");
+        list.add("Wednesday");
+        list.add("Thursday");
+        list.add("Friday");
+        list.add("Saturday");
+        list.add("Sunday");
+
+        //print out the days
+        System.out.println("Today is " + list.get(4));
+        System.out.println("Tommorow is " + list.get(5));
+    }
+}
