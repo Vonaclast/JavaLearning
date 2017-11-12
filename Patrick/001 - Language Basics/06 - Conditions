@@ -1,0 +1,27 @@
+/**
+ * @Author: Patrick de Jong
+ * @version: 1.0
+ *
+ */
+public class Conditions{
+
+    public static void main(String[] args)
+    {
+        int number1 = 21;
+        int number2 = 15;
+        int totalNumber = number1 + number2;
+
+        if(totalNumber > 40)
+        {
+            System.out.println("The total number of: " + number1 + " and " + number2 + " is greater then 40.");
+        }
+        if(totalNumber < 40 && totalNumber > 30)
+        {
+            System.out.println("The total number of: " + number1 + " and " + number2 + " is bewteen 30 and 40.");
+        }
+        else
+        {
+            System.out.println("The total number of: " + number1 + " and " + number2 + " is less then 40.");
+        }
+    }
+}
