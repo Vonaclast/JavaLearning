@@ -1,0 +1,33 @@
+/**
+ * @Author: Patrick de Jong
+ * @version: 1.0
+ *
+ */
+public class MathBasics {
+
+    public static void main(String[] args) {
+        //Made two integer variables
+        int numberA = 100;
+        int numberB = 20;
+
+        //Calculate the two variables in multiple ways
+        System.out.println(numberA + numberB);
+        System.out.println(numberA - numberB);
+        System.out.println(numberA * numberB);
+        System.out.println(numberA / numberB);
+        System.out.println(numberA % numberB);
+
+        //OTHER WAY TO DO THIS!!!
+        int add = numberA + numberB;
+        int min = numberA - numberB;
+        int multiply = numberA * numberB;
+        int divide = numberA / numberB;
+        int modulo = numberA % numberB;
+
+        System.out.println(add);
+        System.out.println(min);
+        System.out.println(multiply);
+        System.out.println(divide);
+        System.out.println(modulo);
+    }
+}
