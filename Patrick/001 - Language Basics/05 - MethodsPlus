@@ -1,0 +1,23 @@
+/**
+ * @Author: Patrick de Jong
+ * @version: 1.0
+ */
+ 
+public class MethodsPlus{
+
+    public static void main(String[] args)
+    {
+        System.out.println(addNumbers(25, 90));
+        System.out.println(multiplyNumbers(6,9));
+    }
+
+    public static int addNumbers(int number1, int number2)
+    {
+        return number1 + number2;
+    }
+
+    public static int multiplyNumbers(int number1, int number2)
+    {
+        return number1 * number2;
+    }
+}
