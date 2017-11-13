@@ -1,0 +1,39 @@
+/**
+ * @Author: Patrick de Jong
+ * @version: 1.0
+ *
+ */
+ 
+public class BasicGame
+{
+    public static void main(String[] args)
+    {
+        runGame();
+    }
+
+    public static void runGame()
+    {
+        int health = 100;
+        int experience = 0;
+        boolean isAlive = true;
+        
+        while(isAlive)
+        {
+            if(health > 0)
+            {
+                experience = experience + 12;
+                health = health - 1;
+            }
+
+            if(health == 0)
+            {
+                qisAlive = false;
+
+            }
+        }
+
+        System.out.println(experience);
+
+    }
+
+}
