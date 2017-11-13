@@ -1,0 +1,22 @@
+/**
+ * @Author: Patrick de Jong
+ * @version: 1.0
+ *
+ */
+public class ForLoop{
+
+    public static void main(String[] args)
+    {
+        printLineNumber(1);
+    }
+
+    public static void printLineNumber(int startingNumber)
+    {
+        for(int i = 0; i < 100; i++)
+        {
+            
+            System.out.println("This sentence is number " + startingNumber);
+            startingNumber++;
+        }
+    }
+}
