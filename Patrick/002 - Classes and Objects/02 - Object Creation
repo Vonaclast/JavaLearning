@@ -1,0 +1,22 @@
+/**
+ * @author Patrick de Jong
+ * @version 1.0
+ */
+public class Car {
+
+    private int maxSpeed;
+    private String colour;
+    private boolean engineOn;
+
+    public Car(int maxSpeed, String colour, boolean engineOn) {
+        this.maxSpeed = maxSpeed;
+        this.colour = colour;
+        this.engineOn = engineOn;
+    }
+
+    public static void main(String[] args)
+    {
+        //this is the new thing added!!
+        Car toyota = new Car(120, "Red", false);
+    }
+}
