@@ -1,0 +1,48 @@
+/**
+ * @author Patrick de Jong
+ * @version 1.0
+ */
+public class Car {
+    /**
+     * This is made for 002 Classes and Objects basic's.
+     */
+    private int maxSpeed;
+    private String colour;
+    private boolean engineOn;
+
+    public Car(int maxSpeed, String colour, boolean engineOn) {
+        this.maxSpeed = maxSpeed;
+        this.colour = colour;
+        this.engineOn = engineOn;
+    }
+
+    public static void main(String[] args) {
+        Car toyota = new Car(120, "Red", false);
+        //I made two methods to do this one with getters and a other where i made a toString Method
+        //With the second one you only have to print the toString method which saves typing
+        System.out.println(toyota.toString());
+        System.out.println("The car has a maximum speed of: "   + toyota.getMaxSpeed()  + 
+                           "\nThe colour of the car is: "       + toyota.getColour()    +
+                           "\nAnd is the engine on? "           + toyota.getEngineOn());
+    }
+
+    public int getMaxSpeed()
+    {
+        return maxSpeed;
+    }
+
+    public String getColour()
+    {
+        return colour;
+    }
+
+    public boolean getEngineOn()
+    {
+        return engineOn;
+    }
+
+    public String toString()
+    {
+        return this.maxSpeed  + "\n" + this.colour + "\n" +  this.engineOn;
+    }
+}
