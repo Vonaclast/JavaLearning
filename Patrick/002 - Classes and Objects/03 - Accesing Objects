@@ -19,7 +19,8 @@ public class Car {
     public static void main(String[] args) {
         Car toyota = new Car(120, "Red", false);
         //I made two methods to do this one with getters and a other where i made a toString Method
-        //With the second one you only have to print the toString method which saves typing
+        //With the first one you only have to print the toString method which saves typing for futher made objects
+        //I used to string so you dont need to make getter methods however these methods can be generated in Intelij by the way.
         System.out.println(toyota.toString());
         System.out.println("The car has a maximum speed of: "   + toyota.getMaxSpeed()  + 
                            "\nThe colour of the car is: "       + toyota.getColour()    +
